@@ -1,0 +1,48 @@
+
+
+.Banner {
+    background: url("kantor.JPG") no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+}
+
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 100px;
+    margin: auto;
+    height: 100px;
+    color: #fff;
+    background-color: darkorange;
+}
+
+.lingkaran i {
+    position: relative;
+    top: 18px;
+
+}
+
+.Bungkus-Produk {
+  background-color: darkorange;
+  opacity: 60px;
+}
+
+.Banner2 {
+    background-color: darkorange;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #fff;
+}
+
+.Banner3 {
+    background-color:rgb(37, 37, 37);
+    padding-top: 0,1%;
+    padding-bottom: 0,1%;
+    color: #fff;
+}
+
+.Banner3 i {
+    color:dimgray;
+}
