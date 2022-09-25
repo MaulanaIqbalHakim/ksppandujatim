@@ -1,5 +1,3 @@
-
-
 .Banner {
     background: url("kantor.JPG") no-repeat center center;
     background-size: cover;
@@ -45,4 +43,9 @@
 
 .Banner3 i {
     color:dimgray;
+}
+
+.cardd{
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
