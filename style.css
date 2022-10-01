@@ -1,5 +1,5 @@
 .Banner {
-    background: url("kantor.JPG") no-repeat center center;
+    background: url("img/kantor.JPG") no-repeat center center;
     background-size: cover;
     padding-top: 20%;
     padding-bottom: 20%;
@@ -14,12 +14,37 @@
     height: 100px;
     color: #fff;
     background-color: darkorange;
+    padding-bottom: 30px;
 }
 
 .lingkaran i {
     position: relative;
     top: 18px;
 
+}
+
+.bgrsub {
+    background: rgb(255, 187, 0);
+    display: inline-block;
+    border-radius: 30px;
+    width: 500px;
+    height: 60px;
+    border: 5px solid rgb(255, 187, 0);
+    box-shadow: 1px 2px 8px rgba(150, 150, 150, 0.65);;
+}
+
+.bgr {
+    background: darkorange;
+    display: inline-block;
+    border-radius: 30px;
+    width: 900px;
+    height: 60px;
+    border: 5px solid darkorange;
+    box-shadow: 1px 2px 8px rgba(150, 150, 150, 0.65);;
+}
+
+.txt{
+  color  : #fff;
 }
 
 .Bungkus-Produk {
@@ -29,6 +54,7 @@
 
 .Banner2 {
     background-color: darkorange;
+    background-size: cover;
     padding-top: 5%;
     padding-bottom: 5%;
     color: #fff;
