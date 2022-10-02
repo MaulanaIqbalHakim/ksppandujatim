@@ -1,3 +1,11 @@
+.bannerp {
+    background: url("img/pinjaman.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+}
+
 .Banner {
     background: url("img/kantor.JPG") no-repeat center center;
     background-size: cover;
@@ -27,8 +35,6 @@
     background: rgb(255, 187, 0);
     display: inline-block;
     border-radius: 30px;
-    width: 500px;
-    height: 60px;
     border: 5px solid rgb(255, 187, 0);
     box-shadow: 1px 2px 8px rgba(150, 150, 150, 0.65);;
 }
@@ -37,8 +43,6 @@
     background: darkorange;
     display: inline-block;
     border-radius: 30px;
-    width: 900px;
-    height: 60px;
     border: 5px solid darkorange;
     box-shadow: 1px 2px 8px rgba(150, 150, 150, 0.65);;
 }
