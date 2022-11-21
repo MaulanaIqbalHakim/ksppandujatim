@@ -1,6 +1,7 @@
 .bannerp {
     background: url("img/pinjaman.jpg") no-repeat center center;
     background-size: cover;
+    margin-top: 5%;
     padding-top: 20%;
     padding-bottom: 20%;
     color: #fff;
@@ -30,6 +31,7 @@
     top: 18px;
 
 }
+
 
 .bgrsub {
     background: rgb(255, 187, 0);
@@ -76,7 +78,7 @@
 }
 
 .cardd{
-    margin-left: auto;
+    margin-left: 1.5rem;
     margin-right: auto ;
 }
 
