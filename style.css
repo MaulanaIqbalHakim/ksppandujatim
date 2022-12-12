@@ -1,7 +1,7 @@
 .bannerp {
     background: url("img/pinjaman.jpg") no-repeat center center;
     background-size: cover;
-    margin-top: 5%;
+    margin-top: auto;
     padding-top: 20%;
     padding-bottom: 20%;
     color: #fff;
@@ -79,10 +79,10 @@
 
 .cardd{
     max-width: 100%;
-    display: block;
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    display:inline-flex;
 }
 
 .logo-wa {
@@ -100,6 +100,12 @@
     height: auto;
 }
 
+.tombol-pengajuan {
+   padding-left: auto;
+   padding-right: auto;
+   margin-left: 150px;
+}
+
 form .button{
     height: 45px;
     margin: 35px 0
@@ -115,11 +121,11 @@ form .button{
     letter-spacing: 1px;
     cursor: pointer;
     transition: all 0.3s ease;
-    background: linear-gradient(135deg, #970000, #ff0000);
+    background: linear-gradient(135deg, #00a108, #0097a1);
   }
   form .button input:hover{
    /* transform: scale(0.99); */
-   background: linear-gradient(-135deg, #970000, #ff0000);
+   background: linear-gradient(-135deg, #128503, #128503);
    }
   @media(max-width: 584px){
   .container{

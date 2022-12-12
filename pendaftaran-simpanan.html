@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title> PENDAFTARAN KREDIT </title>
+  <title> PERMOHONAN PENGAJUAN SIMPANAN </title>
   <link rel="stylesheet" href="stylee.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,11 +11,21 @@
 
 <body>
   <div class="container">
-    <div class="title" style="text-align: center;">PENDAFTARAN KREDIT</div>
+    <div class="title" style="text-align: center;">PERMOHONAN PENGAJUAN SIMPANAN</div>
     <div class="content">
       <form name="#">
         <div id="form_alerts"></div>
         <div class="user-details">
+            <div class="input-box">
+                <label for="SERTIFIKAT" class="form-label">JENIS SIMPANAN</label>
+                <select type="text" id="JENIS_SIMPANAN" name="JENIS_SIMPANAN" class="form-control" placeholder="Pilih jenis Agunan "
+                  required>
+                  <option>--PILIH JENIS SIMPANAN--</option>
+                  <option>SIMPANAN SUKARELA</option>
+                  <option>SIMPANAN PANDU HARI RAYA (SINDURA)</option>
+                  <option>SIMPANAN BERJANGKA (DEPOSITO)</option>
+                </select>
+              </div>
           <div class="input-box">
             <label for="NAMA_LENGKAP" class="form-label">Nama Lengkap</label>
             <input type="text" id="NAMA_LENGKAP" name="NAMA_LENGKAP" class="form-control"
@@ -48,35 +58,8 @@
             <label for="NIK" class="form-label">Nomor NIK</label>
             <input type="number" id="NIK" name="NIK" class="form-control" placeholder="Masukan nomor NIK" required>
           </div>
-          <div class="input-box">
-            <label for="PINJAMAN" class="form-label">Permohonan Pinjaman Sebesar</label>
-            <input type="number" id="PINJAMAN" name="PINJAMAN" class="form-control"
-              placeholder="Masukan Pinjaman (Nominal Rupiah)" required>
-          </div>
-          <div class="input-box">
-            <label for="JANGKA_WAKTU" class="form-label">Jangka Waktu Pinjaman</label>
-            <input type="number" id="JANGKA_WAKTU" name="JANGKA_WAKTU" class="form-control"
-              placeholder="Masukan Jangka Waktu (Bulan)" required>
-          </div>
-          <div class="input-box">
-            <label for="BPKB" class="form-label">JENIS JAMINAN</label>
-            <select type="text" id="BPKB" name="BPKB" class="form-control" placeholder="Pilih jenis Agunan " required>
-              <option>--PILIH JENIS BPKB--</option>
-              <option>BPKB RODA DUA</option>
-              <option>BPKB RODA EMPAT</option>
-            </select>
-          </div>
-          <div class="input-box">
-            <label for="SERTIFIKAT" class="form-label">JENIS JAMINAN</label>
-            <select type="text" id="SERTIFIKAT" name="SERTIFIKAT" class="form-control" placeholder="Pilih jenis Agunan "
-              required>
-              <option>--PILIH JENIS SERTIFIKAT--</option>
-              <option>SHM PERTANIAN</option>
-              <option>SHM PERUMAHAN</option>
-            </select>
-          </div>
           <div style="text-align: center;">
-            <h8>*apabila jenis jaminan yang dipilih sertifikat saja maka kosongkan jenis jaminan bpkb dan sebaliknya
+            <h8>*staf kami akan menghubungi melalui nomor handphone yang anda masukkan kurang lebih 1-2 hari keja Terimakasih...
             </h8>
           </div>
         </div>
@@ -91,7 +74,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
   <script>
     const scriptURL =
-      'https://script.google.com/macros/s/AKfycbwcoqt3RkaPSePbHzI2W708Nuxiky7juOGdXpVCtbHLIpna6ek12WfrH30DuuaSf0Rl/exec'
+      'https://script.google.com/macros/s/AKfycbwkX9ziWjZuHmxutx4FAyPUqloPNBGvmTAH-el10qnELxuR27ji0Ln6ivGuvc51ba6KvA/exec'
     const form = document.forms['#']
 
     form.addEventListener('submit', e => {
