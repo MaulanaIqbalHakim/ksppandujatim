@@ -6,6 +6,14 @@
     padding-bottom: 20%;
     color: #fff;
 }
+.banners {
+    background: url("img/simpanan.jpg") no-repeat center center;
+    background-size: cover;
+    margin-top: auto;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+}
 
 .Banner {
     background: url("img/kantor.JPG") no-repeat center center;
