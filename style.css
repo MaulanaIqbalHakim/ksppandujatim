@@ -1,5 +1,5 @@
 .bannerp {
-    background: url("img/pinjaman.jpg") no-repeat center center;
+    background: url("img/bannerpinjaman.jpg") no-repeat center center;
     background-size: cover;
     margin-top: auto;
     padding-top: 20%;
@@ -108,10 +108,20 @@
     height: auto;
 }
 
+.staff {
+    display:inline-block;
+}
+
 .tombol-pengajuan {
    padding-left: auto;
    padding-right: auto;
    margin-left: 150px;
+}
+.garis-vertikal {
+    display:inline-flex;
+    border-left: 2px black solid;
+    height: 60px;
+    width: 0px;
 }
 
 form .button{
