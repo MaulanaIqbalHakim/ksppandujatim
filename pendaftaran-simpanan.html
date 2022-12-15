@@ -15,53 +15,48 @@
     <div class="content">
       <form name="#">
         <div id="form_alerts"></div>
-        <div class="user-details">
-            <div class="input-box">
-                <label for="SERTIFIKAT" class="form-label">JENIS SIMPANAN</label>
-                <select type="text" id="JENIS_SIMPANAN" name="JENIS_SIMPANAN" class="form-control" placeholder="Pilih jenis Agunan "
-                  required>
-                  <option>--PILIH JENIS SIMPANAN--</option>
-                  <option>SIMPANAN SUKARELA</option>
-                  <option>SIMPANAN PANDU HARI RAYA (SINDURA)</option>
-                  <option>SIMPANAN BERJANGKA (DEPOSITO)</option>
-                </select>
-              </div>
-          <div class="input-box">
-            <label for="NAMA_LENGKAP" class="form-label">Nama Lengkap</label>
-            <input type="text" id="NAMA_LENGKAP" name="NAMA_LENGKAP" class="form-control"
-              placeholder="Masukan nama lengkap" required>
-          </div>
-          <div class="input-box">
-            <label for="JENIS_KELAMIN" class="form-label">Jenis Kelamin</label>
-            <select type="text" id="JENIS_KELAMIN" name="JENIS_KELAMIN" class="form-control"
-              placeholder="Pilih jenis kelamin " required>
-              <option>--Pilih jenis kelamin--</option>
-              <option>Laki-laki</option>
-              <option>Perempuan</option>
-            </select>
-          </div>
-          <div class="input-box">
-            <label for="TANGGAL_LAHIR" class="form-label">Tanggal Lahir</label>
-            <input type="date" id="TANGGAL_LAHIR" name="TANGGAL_LAHIR" class="form-control"
-              placeholder="Masukan tanggal lahir " required>
-          </div>
-          <div class="input-box">
-            <label for="ALAMAT" class="form-label">Alamat</label>
-            <input type="text" id="ALAMAT" name="ALAMAT" class="form-control" placeholder="Masukan alamat " required>
-          </div>
-          <div class="input-box">
-            <label for="KONTAK" class="form-label">Nomor Handphone</label>
-            <input type="number" id="KONTAK" name="KONTAK" class="form-control" placeholder="Masukan nomor telepon"
-              required>
-          </div>
-          <div class="input-box">
-            <label for="NIK" class="form-label">Nomor NIK</label>
-            <input type="number" id="NIK" name="NIK" class="form-control" placeholder="Masukan nomor NIK" required>
-          </div>
-          <div style="text-align: center;">
-            <h8>*staf kami akan menghubungi melalui nomor handphone yang anda masukkan kurang lebih 1-2 hari keja Terimakasih...
-            </h8>
-          </div>
+        <div class="input-box">
+          <label for="JENIS_SIMPANAN" class="form-label">Jenis Simpanan</label>
+          <select type="text" id="JENIS_SIMPANAN" name="JENIS_SIMPANAN" class="form-control"
+            placeholder="Pilih jenis Simpanan " required>
+            <option>--Pilih jenis simpanan--</option>
+            <option>SIMPANAN SUKARELA</option>
+            <option>SIMPANAN PANDU HARI RAYA (SINDURA)</option>
+            <option>SIMPANAN BERJANGKA (DEPOSITO)</option>
+          </select>
+        </div>
+        <div class="input-box">
+          <label for="NAMA_LENGKAP" class="form-label">Nama Lengkap</label>
+          <input type="text" id="NAMA_LENGKAP" name="NAMA_LENGKAP" class="form-control"
+            placeholder="Masukan nama lengkap" required>
+        </div>
+        <div class="input-box">
+          <label for="JENIS_KELAMIN" class="form-label">Jenis Kelamin</label>
+          <select type="text" id="JENIS_KELAMIN" name="JENIS_KELAMIN" class="form-control"
+            placeholder="Pilih jenis kelamin " required>
+            <option>--Pilih jenis kelamin--</option>
+            <option>Laki-laki</option>
+            <option>Perempuan</option>
+          </select>
+        </div>
+        <div class="input-box">
+          <label for="ALAMAT" class="form-label">Alamat</label>
+          <input type="text" id="ALAMAT" name="ALAMAT" class="form-control" placeholder="Masukan alamat " required>
+        </div>
+        <div class="input-box">
+          <label for="KONTAK" class="form-label">Nomor Handphone</label>
+          <input type="number" id="KONTAK" name="KONTAK" class="form-control" placeholder="Masukan nomor telepon"
+            required>
+        </div>
+        <div class="input-box">
+          <label for="NIK" class="form-label">Nomor NIK</label>
+          <input type="number" id="NIK" name="NIK" class="form-control" placeholder="Masukan nomor NIK" required>
+        </div>
+        <div style="text-align: left;">
+          <h8>
+            *staf kami akan menghubungi melalui nomor handphone yang anda masukkan kurang lebih 1-2 hari keja
+            Terimakasih...
+          </h8>
         </div>
         <div class="button">
           <input type="submit" value="Kirim">
@@ -74,7 +69,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
   <script>
     const scriptURL =
-      'https://script.google.com/macros/s/AKfycbwkX9ziWjZuHmxutx4FAyPUqloPNBGvmTAH-el10qnELxuR27ji0Ln6ivGuvc51ba6KvA/exec'
+      'https://script.google.com/macros/s/AKfycbzCD1PbHZUDQZfmIq1KgU-bz0TU7V531kGB2ZV-Pfy5kAN7Q1cr-lJ64FEfwHBU1ion/exec'
     const form = document.forms['#']
 
     form.addEventListener('submit', e => {
