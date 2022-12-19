@@ -1,4 +1,14 @@
-.bannerp {
+
+  .Banner {
+    background: url("img/kantor.JPG") no-repeat center center;
+    background-size: cover;
+    margin-top: auto;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+}
+
+  .bannerp {
     background: url("img/bannerpinjaman.jpg") no-repeat center center;
     background-size: cover;
     margin-top: auto;
@@ -14,15 +24,6 @@
     padding-bottom: 20%;
     color: #fff;
 }
-
-.Banner {
-    background: url("img/kantor.JPG") no-repeat center center;
-    background-size: cover;
-    padding-top: 20%;
-    padding-bottom: 20%;
-    color: #fff;
-}
-
 .lingkaran {
     display: inline-block;
     border-radius: 50%;
@@ -108,6 +109,16 @@
     height: auto;
 }
 
+.carousel-item {
+    height: 900px;
+}
+.carousel-item img {
+    margin-top: -120px;
+}
+.carousel-item .dispaly-2 {
+    margin-top: -440px;
+
+}
 .staff {
     display:inline-block;
 }
