@@ -1,0 +1,108 @@
+.bg{
+    display: grid;
+    place-items: center;
+    background: url("img/bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 200px;
+}
+
+.h4{
+    font-family: "Jost", sans-serif;
+}
+
+.bungkus{
+    font-family: "Jost", sans-serif;
+    max-width: 700px;
+    width: 100%;
+    background-color: rgb(255, 115, 0);
+    padding: 30px 20px;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    background: linear-gradient(360deg, #ff5100, #ffee00);
+  }
+
+body, html {
+    height: 100%;
+}
+
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 100px;
+    margin: 1px;
+    height: 100px;
+    color: #fff;
+    background-color: rgb(255, 145, 0);
+}
+
+/* ---------- ANIMASI BTN---------- */
+
+.button{
+    position: relative;
+    background-color: black;
+    border-radius: 4em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding: 2% 20%;
+    cursor:pointer;
+    user-select:none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  
+  .lingkaranlogo {
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+}
+
+
+  .button:hover {
+    transition-duration: 0.1s;
+    background-color: #ffffff;
+  }
+  
+  .button:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    box-shadow: 0 0 10px 40px white;
+  }
+  
+  .button:active:after {
+    box-shadow: 0 0 0 0 white;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top:0;
+    opacity: 1;
+    transition: 0s;
+  }
+
+  .logotambahan {
+    margin-left: 0px;
+  }
+  
+  .button:active {
+    top: 1px;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+  

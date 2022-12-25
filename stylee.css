@@ -8,12 +8,13 @@
   font-family: 'Poppins',sans-serif;
 }
 body{
-  height: 100vh;
+  height: 120vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding : 10px;
   background: linear-gradient(135deg, #ff5100, #ffee00);
+  
 }
 .container{
   max-width: 700px;
